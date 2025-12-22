@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-class ValidateInformation {
+public class ValidateInformation {
 
   private static final int maxAttempts = 3;
   private FlightInformation startFlights;
