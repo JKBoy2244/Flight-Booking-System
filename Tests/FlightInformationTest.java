@@ -1,4 +1,4 @@
-package Tests;
+package FlightInformation;
 
 import java.util.Scanner;
 import java.time.LocalDate;
