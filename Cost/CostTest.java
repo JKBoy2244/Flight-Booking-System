@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-class CostTest {
+public class CostTest {
 
   public static void main(String[] args) {
 
