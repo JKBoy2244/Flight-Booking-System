@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-interface UserInterface {
+public interface UserInterface {
   public void firstName();
   public void lastName();
   public void age();
