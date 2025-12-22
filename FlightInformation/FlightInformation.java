@@ -1,4 +1,4 @@
-package FlightInformation
+package FlightInformation;
 
 
 import java.util.Scanner;
