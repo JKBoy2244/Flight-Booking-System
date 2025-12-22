@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-class Cost {
+public class Cost {
 
    private double totalCost = 0.00;
 
