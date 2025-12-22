@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-class ExtraFlightInformationTest {
+public class ExtraFlightInformationTest {
 
    public static void main(String[] args) {
 
