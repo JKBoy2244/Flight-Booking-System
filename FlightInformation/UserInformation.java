@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-abstract class UserInformation implements UserInterface {
+public abstract class UserInformation implements UserInterface {
 
   private static final int maxAttempts = 3;
 
