@@ -6,6 +6,8 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import Exceptions.*;
+import FlightInformation.FlightInformation;
+import ExtraFlightInformation.ExtraFlightInformation;
 
 
 public class ValidateInformationTest {
