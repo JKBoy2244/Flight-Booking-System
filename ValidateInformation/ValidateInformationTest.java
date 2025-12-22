@@ -7,4 +7,10 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-class ValidateInformationTest 
+public class ValidateInformationTest {
+  
+    public static void main(String[] args) {
+
+        
+    }  
+}
