@@ -12,7 +12,10 @@ public class ExtraFlightInformationTest {
 
    public static void main(String[] args) {
 
-     ExtraFlightInformation endFlights = new ExtraFlightInformation("05:30", "09:30", "324", 1);
-     
+     ExtraFlightInformation endFlights = new ExtraFlightInformation("12/07/2025", "09:30", "324", 1);
+     System.out.println(endFlights.getReturnFlightDate());
+     System.out.println(endFlights.getReturnFlightTime());
+     System.out.println(endFlights.getReturnFlightSeatNumber());
+
    }
 }
