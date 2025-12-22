@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-class Intro {
+public class Intro {
 
   public void displayMessage() {
 
