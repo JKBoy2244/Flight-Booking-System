@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
-class ExtraFlightInformation {
+public class ExtraFlightInformation {
 
   private static final int maxAttempts = 3;
 
