@@ -11,6 +11,6 @@ public class ValidateInformationTest {
   
     public static void main(String[] args) {
 
-       ValidateInformation validate = new ValidateInformation() 
+       ValidateInformation validate = new ValidateInformation(); 
     }  
 }
