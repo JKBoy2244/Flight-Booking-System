@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import Exceptions.*;
 import Interface.UserInterface;
 
-public class FlightInformationTest {
+public class FlightInformationTest1 {
 
   public static void main(String[] args) {
     
