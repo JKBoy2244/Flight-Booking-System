@@ -11,7 +11,7 @@ public class FlightInformationTest3 {
 
   public static void main(String[] args) {
     
-      FlightInformation startFlights = new FlightInformation("Bob", "Mitchell" ,70, "Male" ,"BobMitchell@gmail.com", "01234567893", "Seoul", "01/07/2025", "04:00", "402"); //For reference, this is made up data.
+      FlightInformation startFlights = new FlightInformation("Bob", "XYXYXYXYXYXYXYXYXYXYXYXYXYXYX" ,70, "Male" ,"BobMitchell@gmail.com", "01234567893", "Seoul", "01/07/2025", "04:00", "402"); //For reference, this is made up data.
       System.out.println(startFlights.getFirstName());
       System.out.println(startFlights.getLastName());
       System.out.println(startFlights.getAge());
