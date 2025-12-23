@@ -9,7 +9,7 @@ import Exceptions.*;
 import ValidateInformation.ValidateInformation;
 import FlightInformation.UserInformation;
 
-public class CostTest {
+public class CostTest1 {
 
   public static void main(String[] args) {
 
