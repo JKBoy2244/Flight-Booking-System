@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import Exceptions.*;
 
 
-public class ExtraFlightInformationTest {
+public class ExtraFlightInformationTest1 {
 
    public static void main(String[] args) {
 
