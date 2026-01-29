@@ -13,6 +13,7 @@ import ExtraFlightInformation.ExtraFlightInformation;
 
 
 public class ValidateInformationTest2 {
+    
     @Test
     void constructor_sets_all_fields_correctly() {
 
