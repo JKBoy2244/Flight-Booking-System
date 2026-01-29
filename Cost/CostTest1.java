@@ -1,4 +1,6 @@
 package Cost;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 import java.util.Scanner;
@@ -11,9 +13,10 @@ import FlightInformation.UserInformation;
 
 public class CostTest1 {
 
-  public static void main(String[] args) {
+  @Test
+  void constructor_sets_all_fields_correctly() {
 
     Cost cost = new Cost(1.20);
-    System.out.println(cost.getTotalCost());
+    assertEquals(1.20, cost.getTotalCost());
   }
 }
