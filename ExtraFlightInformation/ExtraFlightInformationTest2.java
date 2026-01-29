@@ -1,4 +1,6 @@
 package ExtraFlightInformation;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 import java.util.Scanner;
@@ -10,12 +12,13 @@ import Exceptions.*;
 
 public class ExtraFlightInformationTest2 {
 
-   public static void main(String[] args) {
+   @Test
+   void constructor_sets_all_fields_correctly() {
 
      ExtraFlightInformation endFlights = new ExtraFlightInformation("", "", "", 0);
-     System.out.println(endFlights.getReturnFlightDate());
-     System.out.println(endFlights.getReturnFlightTime());
-     System.out.println(endFlights.getReturnFlightSeatNumber());
+     assertEquals("", endFlights.getReturnFlightDate());
+     assertEquals("", endFlights.getReturnFlightTime());
+     assertEquals("", endFlights.getReturnFlightSeatNumber());
 
    }
 }
