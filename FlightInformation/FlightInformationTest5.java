@@ -1,4 +1,6 @@
 package FlightInformation;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Scanner;
 import java.time.LocalDate;
@@ -9,19 +11,21 @@ import Interface.UserInterface;
 
 public class FlightInformationTest5 {
 
-  public static void main(String[] args) {
+   @Test
+   void constructor_sets_all_fields_correctly() {
     
       FlightInformation startFlights = new FlightInformation("Bob", "Mitchell" ,115, "Male" ,"BobMitchell@gmail.com", "01234567893", "Seoul", "01/07/2025", "04:00", "402"); //For reference, this is made up data.
-      System.out.println(startFlights.getFirstName());
-      System.out.println(startFlights.getLastName());
-      System.out.println(startFlights.getAge());
-      System.out.println(startFlights.getGender());
-      System.out.println(startFlights.getEmailAddress());
-      System.out.println(startFlights.getPhoneNumber());
-      System.out.println(startFlights.getFlightDestination());
-      System.out.println(startFlights.getFlightDate());
-      System.out.println(startFlights.getFlightTime());
-      System.out.println(startFlights.getFlightSeatNumber());
+    
+      assertEquals("Bob", startFlights.getFirstName());
+      assertEquals("Mitchell", startFlights.getLastName());
+      assertEquals(115, startFlights.getAge());
+      assertEquals("Male", startFlights.getGender());
+      assertEquals("BobMitchell@gmail.com", startFlights.getEmailAddress());
+      assertEquals("01234567893", startFlights.getPhoneNumber());
+      assertEquals("Seoul", startFlights.getFlightDestination());
+      assertEquals("01/07/2025", startFlights.getFlightDate());
+      assertEquals("04:00", startFlights.getFlightTime());
+      assertEquals("402", startFlights.getFlightSeatNumber());
 
   }
 }
