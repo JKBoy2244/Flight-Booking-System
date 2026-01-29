@@ -18,6 +18,8 @@ public class ValidateInformationTest2 {
         
         ValidateInformation validate = new ValidateInformation(startFlights, endFlights);
 
-        System.out.println("ValidateInformationTest ran.");
+         assertDoesNotThrow(() -> {
+            new ValidateInformation(startFlights, endFlights);
+        });
     }
 }
